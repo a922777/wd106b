@@ -1,4 +1,4 @@
-安裝mngodb
+安裝mongodb
 
 執行SET DEBUG=blog-system:* & npm start
 
