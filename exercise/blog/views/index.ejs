@@ -1,0 +1,11 @@
+<%- include header %>
+<% for(var index of posts.reverse()) { %>
+  <p><h2><a href="#"><%= index.title %></a></h2></p>
+  <p class="info">
+    作者：<a href="#"><%= index.name %></a> | 
+  </p>
+  <p><%= index.post %></p>
+  <a href =edit/<%= index.code %> >編輯</a>
+  <a href =delet/<%= index.code %> >刪除</a>
+<% } %>
+<%- include footer %>
